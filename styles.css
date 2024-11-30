@@ -1,0 +1,245 @@
+/* =========================================================navbar ///////////////////////////////////////////////// */
+.navSubmitBtn {
+    color: black;
+    background: linear-gradient(90deg, rgba(174, 134, 37, 1) 16%, rgba(230, 196, 128, 1) 50%, rgba(224, 170, 62, 1) 100%);
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 5px;
+}
+
+.nav-link {
+    color: white;
+    padding-right: 30px;
+}
+
+.btnSendMsg {
+    color: white;
+    background-color: #DAAF4D;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* =========================================================navbar close ///////////////////////////////////////////////// */
+.certificateCls>div {
+    background: linear-gradient(180deg, rgba(218, 175, 77, 1) 0%, rgba(30, 52, 38, 0.5) 90%);
+    color: white;
+    width: 32%;
+    text-align: left;
+}
+
+/* =========================================================navbar close ///////////////////////////////////////////////// */
+
+.products {
+    width: 90%;
+    margin: auto;
+}
+
+.productsCard>div {
+    border-radius: 8px;
+    width: 49%;
+    margin-right: 1%;
+    background: linear-gradient(180deg, rgba(218, 175, 77, 1) 0%, rgba(30, 52, 38, 0.5) 80%);
+    padding: 30px;
+    border: 1px solid #DAAF4D;
+}
+
+.card-title {
+    text-align: center;
+}
+
+/* =========================================================navbar close ///////////////////////////////////////////////// */
+
+
+
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+.accordion {
+    --bs-accordion-border-radius: 0px
+}
+
+.accordion-body {
+    background-color: transparent;
+}
+
+.careerSec .accordion-button:not([class*=" "]):not([class*="collapsed"]) {
+    background-color: #DAAF4D;
+    color: white;
+    font-weight: 600;
+    font-size: 21px;
+    border-radius: 0px;
+}
+
+.aboutSec .accordion-item:not([class*=" "]):not([class*="collapsed"]) {
+    background-color: transparent;
+    border: 1px solid #DAAF4D;
+}
+
+.aboutSec .accordion-item {
+    background-color: transparent;
+    border: none;
+}
+
+.aboutSec .accordion-button:not([class*=" "]):not([class*="collapsed"]) {
+    background-color: transparent;
+    color: #DAAF4D;
+    font-weight: 600;
+    font-size: 21px;
+    border-radius: 0px;
+}
+
+.aboutSec .accordion-button {
+    background-color: transparent;
+    color: #DAAF4D;
+    font-weight: 600;
+    font-size: 21px;
+    border-radius: 0px;
+}
+
+.careerSec .accordion-button {
+    background-color: transparent;
+    color: white;
+    font-size: 21px;
+    border-radius: 0px;
+}
+
+.accordion-body {
+    min-height: 150px;
+}
+
+
+
+hr {
+    color: #8B8A8A;
+}
+
+footer a {
+    text-decoration: none;
+    display: block;
+    color: #DEDEDE;
+    text-align: left;
+    padding-left: 44%;
+    padding-bottom: 5px;
+}
+
+.title {
+    color: #DAAF4D;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    display: inline;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+.footerDiv div img {
+    margin-bottom: 10px;
+}
+
+.contact_right {
+    font-size: 24px;
+    color: #F4F4F4;
+    z-index: 5;
+}
+
+.contact_right input {
+    border: 1px solid #D3D2E1;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #715D2F;
+}
+
+.servicesCard {
+    border: 1px solid transparent;
+    border-image: linear-gradient(145deg, rgba(218, 175, 77, 1) 36%, rgba(255, 255, 255, 1) 57%, rgba(30, 52, 38, 1) 87%) 1;
+    border-radius: 8px;
+    min-height: 100px;
+    width: 31%;
+    margin: 10px;
+    background-color: #715d2fac;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.servicesCardLast {
+    border: 1px solid transparent;
+    border-image: linear-gradient(145deg, rgba(218, 175, 77, 1) 36%, rgba(255, 255, 255, 1) 57%, rgba(30, 52, 38, 1) 87%) 1;
+    border-radius: 8px;
+    min-height: 100px;
+    width: 31%;
+    margin: 10px;
+    background: rgb(218, 175, 77);
+    background: linear-gradient(180deg, rgba(218, 175, 77, 1) 0%, rgba(30, 52, 38, 1) 90%);
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.servicesCardTrans {
+    min-height: 100px;
+    width: 31%;
+    color: white;
+}
+
+.innerSerCard {
+    margin: 60px;
+}
+
+.productPrice {
+    font-size: 64px;
+    font-weight: 700;
+}
+.certificateCls{
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .productsCard>div {
+        border-radius: 8px;
+        width: 100%;
+        margin-right: 1%;
+        margin-bottom: 20px;
+        padding: 30px;
+
+    }
+
+    footer a {
+        text-decoration: none;
+        display: block;
+        color: #DEDEDE;
+        text-align: center;
+        padding-left: 0%;
+        padding-bottom: 5px;
+    }
+
+    .productPrice {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .servicesCardTrans, .servicesCard, .servicesCardLast {
+        width: 100%;
+    }
+    .certificateCls>div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .certificateCls{
+        display: block;
+    }
+    
+}
