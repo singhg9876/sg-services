@@ -204,9 +204,15 @@ footer a {
     font-size: 64px;
     font-weight: 700;
 }
-.certificateCls{
+
+.certificateCls {
     display: flex;
 }
+
+.certCardParent {
+    display: flex;
+}
+
 @media only screen and (max-width: 600px) {
     .productsCard>div {
         border-radius: 8px;
@@ -234,12 +240,26 @@ footer a {
     .servicesCardTrans, .servicesCard, .servicesCardLast {
         width: 100%;
     }
+
     .certificateCls>div {
         width: 100%;
         margin-bottom: 20px;
     }
-    .certificateCls{
+
+    .certificateCls {
         display: block;
     }
-    
+
+    .certCardParent {
+        display: block;
+    }
+
+    .resultCard {
+        margin-bottom: 30px;
+    }
+
+    .certCard {
+        width: 100%;
+    }
+
 }
